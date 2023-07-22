@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <style>
+      .jumbotron {
+        background-color: lightgray; /* Change the background color of the jumbotron */
+      }
+      .img-fixed-size {
+        max-width: 100%;
+        height: auto;
+        overflow: hidden;
+        transition: transform 0.3s; /* Add transition for smooth effect */
+      }
+      .img-fixed-size:hover {
+        transform: scale(1.2); /* Apply scale transformation on hover */
+      }
+      /* CSS styles */
+      .footer-container {
+        background-color: #f8f8f8;
+        padding: 20px 0;
+        text-align: center;
+        margin-top: 50px;
+      }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="jumbotron text-center">
+      <h1 style="color: #026df5">Converge Store</h1>
+      <!-- Change the color of the header -->
+      <p>You are one click away from decarbonizing construction!</p>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h3>Singal 2.0</h3>
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/converge-store.appspot.com/o/20.png?alt=media&token=378b94b3-7e18-4031-8c98-ae4acaf66e12"
+            class="card-img-top img-fixed-size"
+            alt="Signal 2.0"
+          />
+          <p>
+            The Signal Sensor uses Bluetooth to transmit data to the Converge
+            app on your smart device or to the Signal Live Hub which transmits
+            data to the cloud automatically. No wires, no more awkward trailing
+            thermocouples or routes for water ingress.
+          </p>
+          <button type="button" class="btn btn-primary">
+            &pound; 76.00<br />Buy Now
+          </button>
+        </div>
+        <div class="col-md-4">
+          <h3>Signal 2.1</h3>
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/converge-store.appspot.com/o/21.png?alt=media&token=62319985-730a-4ccd-b16b-93ba5853c279"
+            class="card-img-top img-fixed-size"
+            alt="Signal 2.1"
+          />
+          <p>
+            New and more reliable Signal V2.1 version. The latest iteration of
+            our fully wireless embeddable sensor that measures in-situ concrete
+            temperature and compressive strength. It uploads it all to the cloud
+            in real-time via the Signal Live Hub.
+          </p>
+          <button type="button" class="btn btn-primary">
+            &pound; 85.00<br />Buy Now
+          </button>
+        </div>
+        <div class="col-md-4">
+          <h3>Signal Live V1</h3>
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/converge-store.appspot.com/o/SLV1.png?alt=media&token=7749e347-2da4-43cf-b7ef-9d40a9222721"
+            class="card-img-top img-fixed-size"
+            alt="Signal 2.1"
+          />
+          <p>
+            Bluetooth to cellular gateway currently being developed by Converge,
+            to transmit data from our BLE sensors, or other beacons, to our
+            servers via cellular.
+          </p>
+          <button type="button" class="btn btn-primary">
+            &pound; 200.00<br />Buy Now
+          </button>
+        </div>
+        <div class="col-md-4">
+          <h3>Multi Probe Thermal Tail</h3>
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/converge-store.appspot.com/o/MPTT.png?alt=media&token=4e17fa4d-a624-4ba4-9380-95fb1821d3fd"
+            class="card-img-top img-fixed-size"
+            alt="MPTT"
+          />
+          <p>Construction monitoring sensor multi probe thermal tail.</p>
+          <button type="button" class="btn btn-primary">
+            &pound; 35.00<br />Buy Now
+          </button>
+        </div>
+        <div class="col-md-4">
+          <h3>Onix Hub</h3>
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/converge-store.appspot.com/o/Onix.png?alt=media&token=574a74a3-37a7-40fe-9d00-6d83c60742ee"
+            class="card-img-top img-fixed-size"
+            alt="Onix"
+          />
+          <p>Bluetooth based temperature monitoring sensor hub.</p>
+          <button type="button" class="btn btn-primary">
+            &pound; 146.00<br />Buy Now
+          </button>
+        </div>
+        <div class="col-md-4">
+          <h3>Logistics Gateway</h3>
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/converge-store.appspot.com/o/pelicase.png?alt=media&token=217daac3-eeb6-4f7f-91d5-a58b4ec422f4"
+            class="card-img-top img-fixed-size"
+            alt="LDNA"
+          />
+          <p>Bluetooth based temperature monitoring sensor hub.</p>
+          <button type="button" class="btn btn-primary">
+            &pound; 315.00<br />Buy Now
+          </button>
+        </div>
+        <div class="col-md-4">
+          <h3>Mesh Hub</h3>
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/converge-store.appspot.com/o/hub.png?alt=media&token=44477d70-6fb3-47b9-8e61-6afca1f67e30"
+            class="card-img-top img-fixed-size"
+            alt="Mesh Hub"
+          />
+          <p>
+            Wireless temperature tracking system comprising 4 components
+            hub/node/repeater/sensors (only AA and coin cell batteries are
+            used).
+          </p>
+          <button type="button" class="btn btn-primary">
+            &pound; 100.00<br />Buy Now
+          </button>
+        </div>
+        <div class="col-md-4">
+          <h3>Mesh Node</h3>
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/converge-store.appspot.com/o/node.png?alt=media&token=f96a7fd8-4eb4-4ad4-beb6-3aaa1dfb822d"
+            class="card-img-top img-fixed-size"
+            alt="Mesh Node"
+          />
+          <p>
+            Converge Mesh is our original concrete strength sensor. This robust
+            system is designed to collect and transmit concrete strength data to
+            the cloud even in the toughest networking conditions. Node
+            transmitter, Repeaters, and Hub - a data relay system can be
+            designed to bypass any network obstructions.
+          </p>
+          <button type="button" class="btn btn-primary">
+            &pound; 50.00<br />Buy Now
+          </button>
+        </div>
+        <div class="col-md-4">
+          <h3>Mesh Repeater</h3>
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/converge-store.appspot.com/o/repeater.png?alt=media&token=b12a2cf3-e5ba-4645-95d3-548efb15dce3"
+            class="card-img-top img-fixed-size"
+            alt="Mesh Repeater"
+          />
+          <p>
+            Converge Mesh is our original concrete strength sensor. This robust
+            system is designed to collect and transmit concrete strength data to
+            the cloud even in the toughest networking conditions. Node
+            transmitter, Repeaters, and Hub - a data relay system can be
+            designed to bypass any network obstructions.
+          </p>
+          <button type="button" class="btn btn-primary">
+            &pound; 60.00<br />Buy Now
+          </button>
+        </div>
+        <div class="col-md-4">
+          <h3>LoRa Solution</h3>
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/converge-store.appspot.com/o/LoRa.png?alt=media&token=8353a878-204d-4645-9eda-f320a1b8befe"
+            class="card-img-top img-fixed-size"
+            alt="LoRa"
+          />
+          <p>
+            Long Range LoRa sensor node. Designed for outdoor use and is powered
+            by an Li/SOCl2 battery for long term use.
+          </p>
+          <button type="button" class="btn btn-primary">
+            &pound; 120.00<br />Buy Now
+          </button>
+        </div>
+      </div>
+      <footer class="container footer-container">
+        <div class="row">
+          <div class="col-md-6">
+            <form class="horizontal">
+              <div class="form-group">
+                <label class="control-label col-sm-2" for="name">Name:</label>
+                <div class="col-sm-10">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    placeholder="Enter your name"
+                  />
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="control-label col-sm-2" for="email">Email:</label>
+                <div class="col-sm-10">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="Enter your email"
+                  />
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="control-label col-sm-2" for="number"
+                  >Phone:</label
+                >
+                <div class="col-sm-10">
+                  <input
+                    type="tel"
+                    class="form-control"
+                    id="phone"
+                    placeholder="Enter your phone number"
+                  />
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-6">
+            <img
+              src="https://firebasestorage.googleapis.com/v0/b/converge-store.appspot.com/o/Group%2016.png?alt=media&token=cd284684-4fc2-4490-bde7-bab660035a73"
+              alt="Company Logo"
+              class="img-responsive"
+              style="max-height: 50px"
+            />
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
